@@ -1,5 +1,7 @@
-#NEW EDIT
+import pandas as pd
 
+data = pd.read_csv("NFL.csv")
+print(data)
 
 # Define current division structure
 current_divisions = {
@@ -12,7 +14,7 @@ current_divisions = {
     "NFC South": ["Team25", "Team26", "Team27", "Team28"],
     "NFC West": ["Team29", "Team30", "Team31", "Team32"]
 }
-hello
+
 # Function to display current division structure
 def display_divisions(divisions):
     for division, teams in divisions.items():
