@@ -1,3 +1,6 @@
+#NEW EDIT
+
+
 # Define current division structure
 current_divisions = {
     "AFC East": ["Team1", "Team2", "Team3", "Team4"],
