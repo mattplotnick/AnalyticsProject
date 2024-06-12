@@ -12,7 +12,7 @@ current_divisions = {
     "NFC South": ["Team25", "Team26", "Team27", "Team28"],
     "NFC West": ["Team29", "Team30", "Team31", "Team32"]
 }
-
+hello
 # Function to display current division structure
 def display_divisions(divisions):
     for division, teams in divisions.items():
@@ -41,6 +41,5 @@ new_divisions = {
     "NFC South": ["Team19", "Team23", "Team27", "Team31"],
     "NFC West": ["Team20", "Team24", "Team28", "Team32"]
 }
-
 # Propose new realignment
 realign_divisions(new_divisions)
